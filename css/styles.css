@@ -1,13 +1,16 @@
 body {
   margin: 0;
   text-align: center;
+  font-style: oblique;
+  font-variant: normal;
   font-family: 'Merriweather', serif;
+  background-color: #e2fefe;
 }
 
 h1 {
   font-size: 5.5rem;
-  color: #66BFBF;
-  margin: 0 auto 0 auto;
+  color: #333333;
+  margin: 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
@@ -15,7 +18,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: normal;
   margin-top: 30px;
-  color: #66BFBF;
+  color: #333333;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -25,14 +28,14 @@ h3 {
 }
 
 .top-container {
-  background-color: #EAF6F6;
+  background-color: #82fbfd;
   position: relative;
   padding-top: 160px;
 }
 
 .middle-container {
-  margin: 100px auto 100px auto;
-  background-color: white;
+  margin: 100px auto;
+  background-color: #e2fefe;
 }
 
 .bottom-container {
@@ -57,120 +60,139 @@ h3 {
   left: 220px;
   bottom: 350px;
 }
-.footer-link{
-  color: #11999E;
-}
-.footer-link:hover{
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #66BFBF;
   color: #EAF6F6;
 }
-.skill-row{
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  font-size: 1.25rem;
+  color: #11999E;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  font-size: 16px;
+}
+
+.skill-row {
   width: 50%;
   margin: 100px auto 200px auto;
   text-align: left;
   line-height: 2;
 }
-.image1{
+
+.image1 {
   width: 25%;
   margin-right: 30px;
   float: left;
 }
-.image2{
+
+.image2 {
   width: 24%;
   margin-right: 0;
   float: right;
 }
-.image3{
+
+.image3 {
   width: 27%;
   margin-right: 30px;
   float: left;
 }
-.image4{
+
+.image4 {
   width: 20%;
   margin-right: 0;
   float: right;
 }
-.image5{
+
+.image5 {
   width: 28%;
   margin-right: 30px;
   margin-top: 20px;
   float: left;
 }
-.contact-me{
+
+.contact-me {
   margin: 100px auto;
   margin-top: 70px;
 }
-p{
+
+p {
   font-size: 20px;
   padding-bottom: 20px;
   color: #40514E;
 }
-hr{
-    width: 8%;
-    border-style: dotted none none;
-    border-width: 8px;
-    border-color: grey;
-    margin: 60px auto 60px auto;
+
+hr {
+  width: 8%;
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: grey;
+  margin: 60px auto;
 }
-.cpp{
+
+.cpp {
   padding-left: 280px;
 }
-.css{
+
+.css {
   padding-left: 420px;
 }
-.copyright {
-  color: #EAF6F6;
-  padding: 1rem;
-}
-.rule1{
-  padding-bottom: 0;
-}
-.skills{
+
+.skills {
   margin-top: 50px;
 }
-.btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+
+.btn,
+.button {
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
   border-radius: 28px;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #11999E;
-  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.btn:hover {
+.btn {
+  background: #34c6d9;
+  background-image: linear-gradient(to bottom, #34c6d9, #34c6d9);
+  padding: 10px 20px;
+}
+
+.button {
+  background: #34c6d9;
+  background-image: linear-gradient(to bottom, #34c6d9, #34c6d9);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.button:hover {
   background: grey;
   text-decoration: none;
 }
-.footer-link {
-    color: #11999E;
-    font-size: 20px;
-    padding: 20px;
-    text-decoration: none;
-}
-.button{
-  background: #34c6d9;
-  background-image: -webkit-linear-gradient(top, #34c6d9, #34c6d9);
-  background-image: -moz-linear-gradient(top, #34c6d9, #34c6d9);
-  background-image: -ms-linear-gradient(top, #34c6d9, #34c6d9);
-  background-image: -o-linear-gradient(top, #34c6d9, #34c6d9);
-  background-image: linear-gradient(to bottom, #34c6d9, #34c6d9);
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  border-radius: 20px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-.button {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}
-.button:hover {
-  background: #3cfcfc;
-  text-decoration: none;
+
+.hobbies{
+  position: absolute;
+  left: 2rem;
+  top: 2.50rem;
 }
